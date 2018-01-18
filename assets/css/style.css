@@ -541,6 +541,7 @@ footer {
     	top: 0;
     	border-bottom: solid;
     	border-color: #cccccc;
+    	text-align: center;
 	}
 
 	#yourname2 {
@@ -551,7 +552,7 @@ footer {
 		margin: auto;
 		display: block;
 		top: 0;
-		padding: 15px 0px 15px 200px;
+		padding: 15px 0px 15px 0px;
 		clear: both;
 		position: relative;
 	}
@@ -559,11 +560,20 @@ footer {
 	.navtext2 {
 		list-style-type: none;
 		display: inline-flex;
+		padding-left: 0; /*takes away inherent padding from ul*/
 		text-align: center;
-		padding-top: 5px;
 		float: none;
 		clear: both;
 		position: relative;
+		padding: 0 30px;
+	}
+
+	.stripe1 {
+		display: none;
+	}
+
+	li {
+		padding: 0px 30px;
 	}
 }
 
