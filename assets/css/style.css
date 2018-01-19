@@ -97,6 +97,17 @@ table {
 	border-radius: 5px;
 }
 
+#contactbig {
+	background-color: white;
+	width: 650px;
+	height: 600px;
+	float: left;
+	border: solid;
+	border-color: #cccccc;
+	border-width: 1.5px;
+	border-radius: 5px;
+}
+
 #aboutmetext {
 	color: #4aaaa5;
 	font-family: 'Ubuntu';
@@ -274,12 +285,52 @@ footer {
 		margin: auto;
 		float: left;
 		clear: both;
-		height: 1000px;
+		height: auto;
+	}
+
+	#contactbig{
+		width: 50%;
+		margin: auto;
+		float: left;
+		clear: both;
+		height: auto;
+		padding-bottom: 4%;
 	}
 
 	.allmargin {
 		width: 600px;
 		margin: auto;
+	}
+
+	#portfolio2{
+		width: 50%;
+		margin: auto;
+		float: left;
+		clear: both;
+		height: auto;
+		padding-bottom: 5%;
+	}
+
+	table {
+		width: 100%;
+		margin: auto;
+		float: left;
+		clear: both;
+		height: auto;
+		display: block;
+		position: relative;
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+
+	#contacttable {
+		max-width: 290px;
+		margin: auto;
+		padding: auto;
+	}
+
+	th, td {
+		text-align: center;
 	}
 
 	.content{
@@ -319,6 +370,15 @@ footer {
 @media screen and (max-width: 768px) and (min-width: 641px) {
 	
 	#aboutme {
+		max-width: 100%;
+		margin: 0 auto;
+		float: none;
+		width: 100%;
+		clear: both;
+		height: auto;
+	}
+
+	#contactbig {
 		max-width: 100%;
 		margin: 0 auto;
 		float: none;
@@ -379,6 +439,15 @@ footer {
 @media screen and (max-width: 768px) and (min-width: 641px) {
 	
 	#aboutme {
+		max-width: 100%;
+		margin: 0 auto;
+		float: none;
+		width: 100%;
+		clear: both;
+		height: auto;
+	}
+
+	#contactbig {
 		max-width: 100%;
 		margin: 0 auto;
 		float: none;
@@ -451,6 +520,26 @@ footer {
 	}*/
 
 	#aboutme {
+		max-width: 100%;
+		margin: 0 auto;
+		margin-bottom: 25px;
+		float: ;
+		width: 100%;
+		clear: both;
+		height: auto;
+	}
+
+	#portfolio2 {
+		max-width: 100%;
+		margin: 0 auto;
+		margin-bottom: 25px;
+		float: ;
+		width: 100%;
+		clear: both;
+		height: auto;
+	}
+
+	#contactbig {
 		max-width: 100%;
 		margin: 0 auto;
 		margin-bottom: 25px;
@@ -574,6 +663,10 @@ footer {
 
 	li {
 		padding: 0px 30px;
+	}
+
+	#footer {
+		text-align: center;
 	}
 }
 
