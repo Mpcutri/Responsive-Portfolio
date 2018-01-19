@@ -260,6 +260,7 @@ footer {
     color: #cccccc;
     font-family: 'arial';
     font-size: 12px;
+    text-align: center;
 }
 
 .clearfix:after {
