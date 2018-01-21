@@ -379,6 +379,14 @@ footer {
 		height: auto;
 	}
 
+	#portfolio2 {
+		float: none;
+		margin: auto;
+		margin-bottom: 25px;
+		clear: both;
+		width: 100%;
+	}
+
 	#contactbig {
 		max-width: 100%;
 		margin: 0 auto;
